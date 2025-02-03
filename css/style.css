@@ -283,7 +283,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 60px;
+    gap: 100px;
 }
 
 .benefits_cards_wrapper {
@@ -383,4 +383,560 @@ main {
     text-decoration-color: #7039F0;
     text-underline-offset: 8px;
     text-decoration-thickness: 4px;
+}
+
+.usage_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+.usage_content_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.usage_logos_wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 863px;
+    width: 100%;
+}
+
+.usage_logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid #7039F0;
+    position: relative;
+}
+
+.usage_logos_number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px;
+    width: 24px;
+    height: 24px;
+    font-size: 8px;
+    font-weight: 900;
+    border-radius: 50px;
+    border: 1px solid #FFF;
+    background-color: #040405;
+    position: absolute;
+    right: -10px;
+    top: -10px;
+}
+
+.usage_text_wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.usage_description_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    text-align: center;
+    max-width: 247px;
+    width: 100%;
+}
+
+.uasge_title {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.usage_description {
+    color: #7A7A7A;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.revly_app_section {
+    display: flex;
+    gap: 89px;
+}
+
+.revly_app_wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 334px;
+    width: 100%;
+    border-radius: 12px;
+    background: #10121B;
+}
+
+.iphone_top_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 17px 8px 8px;
+}
+
+.iphone_top_left_wrapper {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.iphone_top_time {
+    color: #FFF;
+    text-align: center;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: -0.194px;
+}
+
+.iphone_top_right_wrapper {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.revly_app_web_logo_wrapper {
+    display: flex;
+    max-width: 210px;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 13px;
+    align-items: center;
+}
+
+.revly_app_menu_wrapper {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    background: url("../icons/charm_menu-hamburger.svg");
+    width: 24px;
+    height: 24px;
+    outline: none;
+}
+
+.revly_app_website_logo_wrapper {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.revly_app_web_title {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.revly_app_secured_icon_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.revly_app_secured_icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 11px;
+    border-radius: 20px;
+    background-color: #0CBC8B;
+}
+
+.revly_app_start_btn_wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 34px;
+}
+
+.revly_app_start_btn_background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 135px;
+    width: 100%;
+    height: 135px;
+    background-color: #FFF;
+    border-radius: 50%;
+}
+
+.revly_app_start_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 103px;
+    width: 100%;
+    height: 103px;
+    border-radius: 129px;
+    background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
+    box-shadow: 0px 0.807px 9.681px 0px #7039F0;
+}
+
+.revly_app_start_btn_icon {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.revly_app_start_btn_icon span {
+    color: #FFF;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.revly_app_connected {
+    padding-top: 41px;
+}
+
+.revly_app_time {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 46px;
+}
+
+.revly_app_time span {
+    color: #F8F8F8;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.04px;
+}
+
+.revly_app_connected_country_wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.revly_app_connected_country {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.revly_app_connected_country span {
+    color: #FFF;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.04px;
+}
+
+.revly_app_vpn_stats {
+    position: relative;
+    width: 100%;
+    height: 125px;
+}
+
+.revly_app_vpn_stats_wrapper {
+    display: flex;
+    gap: 39px;
+    padding: 28px 24px;
+    border-radius: 12px;
+    background-color: #FFF;
+    box-shadow: 0px 9.531px 14.297px 0px rgba(0, 0, 0, 0.05);
+    width: 390px;
+    position: absolute;
+    left: 177px;
+}
+
+.revly_app_vpn_download_stats {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    max-width: 151px;
+    width: 100%;
+}
+
+.download_text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.download_text span {
+    color: #000;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.download_text img {
+    padding: 5px;
+    border-radius: 5px;
+    background: #FEF1EB;
+}
+
+.download_speed span {
+    color: #000;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.revly_app_vpn_upload_stats {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    max-width: 151px;
+    width: 100%;
+}
+
+.revly_app_bottom_section {
+    padding-top: 21px;
+}
+
+.revly_app_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 21px 26px;
+    border-radius: 32px 32px 0px 0px;
+    background-color: #0BAB7E;
+}
+
+.revly_app_bottom_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px 8px 12px;
+    border-radius: 12px;
+    background: #FFF;
+    width: 100%;
+}
+
+.revly_app_bottom_left {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.revly_app_bottom_left_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.revly_app_bottom_left_text span {
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 0.04px;
+}
+
+.revly_app_bottom_right {
+    display: flex;
+}
+
+.revly_app_bottom_right span {
+    color: #000;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.04px;
+}
+
+.revly_app_description {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 149px;
+}
+
+.revly_app_description_title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.revly_app_description_title span {
+    background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration-color: rgba(112, 57, 240, 1);
+    line-height: 56px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: auto;
+    text-decoration-thickness: auto;
+    text-underline-offset: 6px;
+    text-underline-position: from-font;
+}
+
+.revly_app_description_text {
+    color: #D9DCEB;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.revly_app_description_button {
+    color: #FFF;
+    font-weight: 500;
+    padding: 8px 24px;
+    border-radius: 24px;
+    border: 1px solid #5C6069;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 287px;
+}
+
+.premium_class_container {
+    background-color: #10121B;
+    padding: 56px 0;
+}
+
+.premium_class_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.premium_class_description {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+}
+
+.premium_class_title {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.premium_class_title span {
+    background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration-color: rgba(112, 57, 240, 1);
+    line-height: 56px;
+    text-decoration-line: underline;
+    text-underline-offset: 6px;
+}
+
+.premium_class_text {
+    color: #7A7A7A;
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 930px;
+    width: 100%;
+}
+
+.premium_class_button {
+    padding: 8px 24px;
+    border-radius: 24px;
+    border: 1px solid #5C6069;
+    background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
+    height: 51px;
+    color: #FFF;
+    font-weight: 500;
+    position: relative;
+}
+
+.premium_class_button img {
+    position: absolute;
+    left: -17.5px;
+    top: -18px;
+}
+
+.premium_class_image {
+    position: relative;
+    max-width: 1048px;
+    width: 100%;
+    height: 345px;
+}
+
+.premium_class_image div {
+    background: url("../images/premiumclasssImg.png");
+    background-size: cover;
+    background-position: center;
+    max-width: 1048px;
+    height: 536px;
+}
+
+.customer_review_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+}
+
+.customer_review_title {
+    color: #FFF;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.customer_review_title span {
+    background: var(--gradient, linear-gradient(180deg, #7039F0 0%, #A657F8 81.19%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration-color: rgba(112, 57, 240, 1);
+    font-weight: 700;
+    line-height: 56px;
+    text-decoration-line: underline;
+    text-underline-offset: 8px;
+}
+
+.customer_review_cards {
+    display: flex;
+    justify-content: space-between;
+    height: 272px;
+    gap: 16px;
+}
+
+.customer_review_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 48px 24px 24px 24px;
+    border-radius: 12px;
+    background-color: #10121B;
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    max-height: fit-content;
+}
+
+.customer_pfp {
+    position: absolute;
+    right: 89px;
+    top: -32px;
+}
+
+.user_name {
+    font-weight: 500;
+}
+
+.customer_review_text {
+    color: #7A7A7A;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.customer_review_string_down {
+    position: absolute;
+    right: 12px;
+    bottom: -13px;
+}
+
+.flex_end {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.customer_review_string_up {
+    position: absolute;
+    left: 7.4px;
+    top: -13px;
 }
