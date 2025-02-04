@@ -60,6 +60,7 @@ nav {
     display: flex;
     gap: 16px;
     align-items: center;
+    height: fit-content;
 }
 
 .website_logo_wrapper span {
@@ -1035,4 +1036,134 @@ main {
     -webkit-text-fill-color: transparent;
     text-underline-offset: 10px;
     text-decoration-line: underline;
+}
+
+.why_us_pros_wrapper {
+    display: flex;
+    max-width: 902px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.why_us_image {
+    background: url("../icons/whyusIMG.svg");
+    background-position: center;
+    background-size: cover;
+    width: 354px;
+    height: 693px;
+    display: flex;
+    justify-content: center;
+}
+
+.why_us_pros {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 24px 32px;
+    border-radius: 12px;
+    background: linear-gradient(271deg, rgba(0, 255, 107, 0.12) 0.59%, rgba(0, 0, 0, 0.00) 75.31%), #10121B;
+    max-width: fit-content;
+}
+
+.why_us_wrapper>div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why_us_pros_wrapper>div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.why_us_image>div {
+    display: flex;
+    gap: 250px;
+}
+
+.four {
+    width: 336px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.why_us_pros1 {
+    padding-bottom: 88px;
+}
+
+.why_us_pros2 {
+    padding-bottom: 124px;
+}
+
+.why_us_pros3 {
+    padding-bottom: 117px;
+}
+
+.first_half {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -23px;
+}
+
+.second_half {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    top: 27px;
+}
+
+.why_us_pros5 {
+    padding-bottom: 116px;
+}
+
+.why_us_pros6 {
+    padding-bottom: 104px;
+}
+
+.why_us_pros7 {
+    padding-bottom: 144px;
+}
+
+.footer_container {
+    padding: 228px 0 40px 0;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer_nav_title {
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.footer_nav_items {
+    color: #7A7A7A;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.social_media_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.social_media {
+    display: flex;
+    gap: 16px;
+    align-items: center;
 }
